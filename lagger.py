@@ -1,5 +1,13 @@
 #!/usr/bin/python
 
+'''
+    Will Bergen - 2013
+    Simple 'lag switch' based on ipfw pipe manipulation
+    Connect your system-to-lag to your box, and your box to the Internet.  Bridge the two connections.
+
+
+'''
+
 import time
 import os
 
